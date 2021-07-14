@@ -33,7 +33,7 @@ Almost all features of this starter are editable. In order to personalize, open 
 // Do not remove any of the properties below.
 
 const siteMetadata = {
-    title: `Elemental`, // Title of your webpage
+    title: `trendinc`, // Title of your webpage
     siteUrl: `http://localhost`, // You sites URL
     capitalizeTitleOnHome: true, // Whether to capitalize the letter on homepage
     logo: `/images/logo.png`, // Logo 
@@ -42,7 +42,7 @@ const siteMetadata = {
     ogImage: `/images/wall.png`, // open graph image (shown when link is shared in social media)
     twoColumnWall: true, // If true, the wall will be split into two with titleImage on left side and text on the right. If false, the title image will be used as the background of the text.
     about:"", // The short about text shown on front page
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`, // Intro tag shown below title
+    introTag: `Agencia Digital`, // Intro tag shown below title
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
     author: `@_akzhy`, // Author
     blogItemsPerPage: 10,
