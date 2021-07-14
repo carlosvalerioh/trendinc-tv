@@ -1,0 +1,44 @@
+stackbitVersion: ~0.3.0
+ssgName: gatsby
+publishDir: public
+pagesDir: contents
+models:
+  basepage:
+    type: page
+    label: Basepage
+    folder: basepages
+    match: '**/*'
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: template
+        label: Template
+      - type: image
+        name: image
+        label: Image
+  content:
+    type: page
+    label: Content
+    match:
+      - blog/something-cool/index.mdx
+      - blog/something-hot/index.mdx
+      - portfolio/concerts/index.mdx
+      - portfolio/street-lights/index.mdx
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: date
+        name: date
+        label: Date
+      - type: image
+        name: image
+        label: Image
+      - type: image
+        name: banner
+        label: Banner
+      - type: string
+        name: description
+        label: Description
