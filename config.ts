@@ -1,5 +1,5 @@
 const siteMetadata = {
-    title: `Elemental`,
+    title: `trendic.tv`,
     siteUrl: `http://localhost`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
