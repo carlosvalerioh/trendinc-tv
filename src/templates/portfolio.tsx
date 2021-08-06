@@ -6,7 +6,8 @@ import Img from "gatsby-image"
 import { Calendar } from "react-feather"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import { Row, Col } from "../components/shortcodes/index"
+import { Row, Col} from "../components/shortcodes/index"
+import {Brand,BrandContent,BrandItem,BrandTitle} from "../components/customComponents/brand/Brands"
 import { PortfolioQuery } from "./__generated__/PortfolioQuery"
 
 export default function porfolio ({ location, data }: PageProps<PortfolioQuery, {}>) {
@@ -32,20 +33,14 @@ export default function porfolio ({ location, data }: PageProps<PortfolioQuery, 
                             <h1 className="text-5xl font-bold text-color-1 lg:text-white">
                                 {data.mdx.frontmatter.title}
                             </h1>
-                            <p className="mt-1 flex items-center justify-center">
-                                <Calendar />{" "}
-                                <span className="ml-2">
-                                    {data.mdx.frontmatter.date}
-                                </span>
-                            </p>
                             <p className="mt-3 md:w-3/4 mx-auto">
                                 {data.mdx.frontmatter.description}
-                            </p>
+                            </p> 
                         </div>
                     </div>
                 </div>
                 <div className="lg:w-3/4 md:w-11/12 sm:w-full p-3 mt-4 md:mt-6 mx-auto lg:mt-12">
-                    <MDXProvider components={{ Row, Col }}>
+                    <MDXProvider components={{ Row, Col ,Brand,BrandContent,BrandItem,BrandTitle}}>
                         <MDXRenderer>{data.mdx.body}</MDXRenderer>
                     </MDXProvider>
                 </div>
@@ -76,3 +71,14 @@ export const query = graphql`
         }
     }
 `
+
+/*
+ si quieres regresar el componente de fecha con icono
+
+<p className="mt-1 flex items-center justify-center">
+    <Calendar />{" "}
+    <span className="ml-2">
+        {data.mdx.frontmatter.date}
+    </span>
+</p>
+*/
