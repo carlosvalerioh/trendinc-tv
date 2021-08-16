@@ -16,4 +16,5 @@ const Col = ({ children }) => {
     )
 }
 
-export { Row, Col }
+
+export { Row, Col}
