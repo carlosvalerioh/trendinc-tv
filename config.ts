@@ -1,11 +1,6 @@
 const siteMetadata = {
-<<<<<<< HEAD
     title: `Trendinc tv`,
     siteUrl: `http://localhost`,
-=======
-    title: `trendic.tv`,
-    siteUrl: `https://trendinc.tv/`,
->>>>>>> 633329bff23b8afa7a8c06297fe1fc7994b76ac4
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
