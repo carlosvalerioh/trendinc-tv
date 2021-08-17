@@ -83,15 +83,17 @@ export const ItemPortfolio: React.FC<ItemPortfolioProps> = ({ data, even }) => {
                             <h3 className="text-color-1 text-5xl font-black to-up">
                                 {data.frontmatter.title}
                             </h3>
+                            <div className="porfilio-text">
                             <p className="lg:mt-4 to-up">
                                 {data.frontmatter.description}
                             </p>
                             <Button
                                 to={data.fields.slug}
                                 label={`View ${data.frontmatter.title}`}
-                                title={"View"}
+                                title={"Ver más"}
                                 iconRight={<ArrowRight />}
                             />
+                            </div>
                         </div>
                     </div>
                 </div>

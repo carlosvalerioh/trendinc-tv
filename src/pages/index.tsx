@@ -97,7 +97,7 @@ const Wall = ({ data }) => {
             <p className="text-base lg:text-lg mt-4">{data.description}</p>
             <ScrollIntoView selector="#portfolio">
                 <Button
-                    title="SEE WORKS"
+                    title="Mira nuestro trabajo"
                     type="button"
                     iconRight={<ArrowRight />}
                 />
@@ -146,7 +146,7 @@ const About = ({ data }) => {
         <div className="boxed">
             <div className="px-4 py-20 text-center lg:py-40 lg:px-0">
                 <h2 className="text-color-1 font-black text-5xl lg:text-6xl">
-                    About
+                    ¿Quiénes somos ?
                 </h2>
                 <p className="mt-5 text-lg">{data}</p>
             </div>
@@ -154,12 +154,12 @@ const About = ({ data }) => {
     )
 }
 
+//agregar aqui nueva seccion
 const Blog = ({ children }) => {
     return (
         <div className="container mx-auto px-0">
             <div className="pt-20 pb-10 text-center lg:pt-40 lg:pb-20">
                 <h2 className="text-color-1 font-black text-5xl lg:text-6xl">
-                    Blog
                 </h2>
             </div>
             <div className="flex flex-wrap">{children}</div>
@@ -173,7 +173,7 @@ const Contact = ({ data }) => {
         <div className="container mx-auto">
             <div className="pt-20 pb-10 lg:pt-40 lg:pb-20 text-center">
                 <h2 className="text-color-1 font-black text-5xl lg:text-6xl">
-                    Contact
+                    Contacto
                 </h2>
             </div>
             <div className="flex flex-wrap pb-40">
