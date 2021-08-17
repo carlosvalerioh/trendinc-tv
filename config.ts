@@ -1,6 +1,6 @@
 const siteMetadata = {
-    title: `Trendinc tv`,
-    siteUrl: `http://localhost`,
+    title: `Trendinc`,
+    siteUrl: `https://trendinc.tv/`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
@@ -8,34 +8,30 @@ const siteMetadata = {
     ogImage: `/images/wall.png`,
     twoColumnWall: true,
     cookiePolicy: true,
-    introTag: `Agencia digital`,
-    description: `somos una afencia genial!`,
+    introTag: `Social media`,
+    description: `somos una agencia genial!`,
     about:
-        "Cras accumsan a lectus at tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus elementum dapibus dictum. Mauris auctor quam nec est tincidunt hendrerit. Donec pulvinar lobortis mauris. Cras vulputate ullamcorper ligula a rhoncus. Nunc venenatis elementum ligula in semper. Mauris malesuada purus nunc, et ultricies leo aliquam ac. Ut sit amet nunc id magna accumsan hendrerit in eget metus.",
-    author: `@_akzhy`,
+        "Somos una agencia dedicada a la publicidad digital en redes sociales, especialistas en Facebook, Twitter, Instagram, YouTube, Snapchat, teniendo impactos de más de 4 millones de personas al instante.",
+    author: `@_akzhy y el valerioMix`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
-    switchTheme: true,
+    switchTheme: false,
     navLinks: [
         {
             name: "HOME",
             url: "/",
         },
         {
-            name: "ABOUT",
+            name: "¿Quiénes somos ?",
             url: "/about",
-        },
-        {
-            name: "BLOG",
-            url: "/blog",
         },
         {
             name: "PORTFOLIO",
             url: "/portfolio",
         },
         {
-            name: "CONTACT",
+            name: "CONTACTO",
             url: "/contact",
         },
     ],
@@ -43,41 +39,28 @@ const siteMetadata = {
         {
             name: "PRIVACY POLICY",
             url: "/privacy-policy",
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental",
-        },
+        }
     ],
     social: [
         {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "#",
-        },
-        {
-            name: "Twitter",
-            icon: "/images/Twitter.svg",
-            url: "#",
+            url: "https://m.facebook.com/Trendinc.tv/?__tn__=%7E%7E-R",
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "#",
+            url: "https://instagram.com/trendinc.tv?utm_medium=copy_link",
         },
-        {
-            name: "Youtube",
-            icon: "/images/Youtube.svg",
-            url: "#",
-        },
+        
     ],
     contact: {
         // leave empty ('') or false to hide form
         api_url: "https://getform.io/f/f227a36e-096a-4c6a-9963-9f1918a85bb3",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation",
+        description: `Cuentanos tu idea`,
+        mail:'recados@trendinc.tv' ,
+        phone: "5510825405",
+        address: "Av. Insurgentes Sur 3744, Tlalpan Centro I, Tlalpan, 14000  \nCiudad de México \nCDMX",
     },
     disqus: "elemental-netlify-com",
 }
