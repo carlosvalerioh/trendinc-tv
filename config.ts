@@ -56,7 +56,7 @@ const siteMetadata = {
     ],
     contact: {
         // leave empty ('') or false to hide form
-        api_url: "https://getform.io/f/73a43a46-a9de-40de-8c07-f1a80b17cd95",
+        api_url: `https://formspree.io/f/xleaobkw`,
         description: `Cuentanos tu idea`,
         mail:'recados@trendinc.tv' ,
         phone: "5510825405",
@@ -111,6 +111,11 @@ const beforeContactFormSubmit = data => {
 }
 
 const contactFormSubmit = async (api, data) => {
+    
+
+    console.log("api",api);
+    console.log("data",JSON.stringify(data));
+
     let res: any = await fetch(api, {
         method: "POST",
         body: JSON.stringify(data),
@@ -121,11 +126,14 @@ const contactFormSubmit = async (api, data) => {
     })
 
     res = await res.json()
-
-    if (res.success) {
+    console.log(res.ok);
+    
+    if (res.ok) {
+        window.location.reload();
         return {
             result: true,
         }
+        
     }
     return {
         result: false,

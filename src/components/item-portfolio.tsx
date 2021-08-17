@@ -70,7 +70,7 @@ export const ItemPortfolio: React.FC<ItemPortfolioProps> = ({ data, even }) => {
                                 fluid={
                                     data.frontmatter.image.childImageSharp.fluid
                                 }
-                                alt={data.frontmatter.title}
+                                alt={"data.frontmatter.title"}
                             />
                         </div>
                     </div>

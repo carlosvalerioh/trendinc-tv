@@ -52,6 +52,7 @@ const Form: React.FC<{ api: string }> = ({ api }) => {
                         }
                         setTransactionState(false);
                     }).catch(err => {
+                        console.log('error',err)
                         setFeedback({
                             4: {
                                 message:
