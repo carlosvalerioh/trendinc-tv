@@ -56,7 +56,7 @@ const siteMetadata = {
     ],
     contact: {
         // leave empty ('') or false to hide form
-        api_url: "https://getform.io/f/f227a36e-096a-4c6a-9963-9f1918a85bb3",
+        api_url: "https://getform.io/f/73a43a46-a9de-40de-8c07-f1a80b17cd95",
         description: `Cuentanos tu idea`,
         mail:'recados@trendinc.tv' ,
         phone: "5510825405",
