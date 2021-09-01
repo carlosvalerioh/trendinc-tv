@@ -40,7 +40,7 @@ module.exports = {
             "color-1": "#fff",
             "color-2": "#673ab7",
             "color-3": "#aeb4c5",
-            primary: "#fff",
+            primary: "#ef5350",
             secondary: "#6888df",
             link: "#0a71c5",
             medium: "#cfd8dc",
