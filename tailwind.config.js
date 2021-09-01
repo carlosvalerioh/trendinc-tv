@@ -44,7 +44,7 @@ module.exports = {
             secondary: "#6888df",
             link: "#0a71c5",
             medium: "#cfd8dc",
-            white: "#fff",
+            white: "#ef5350",
             black: "#000",
             transparent: "rgba(0,0,0,0)",
             error: "#ef5350",
