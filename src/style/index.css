@@ -127,7 +127,7 @@ p {
 }
 
 .btn-primary {
-    @apply bg-primary my-4;
+    @apply bg-button my-4;
     color: #fff;
 }
 
