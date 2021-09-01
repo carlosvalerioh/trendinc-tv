@@ -1,5 +1,5 @@
 const siteMetadata = {
-    title: `Trendinc`,
+    title: `TRENDINC`,
     siteUrl: `https://trendinc.tv/`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
@@ -9,9 +9,9 @@ const siteMetadata = {
     twoColumnWall: true,
     cookiePolicy: true,
     introTag: `Social media`,
-    description: `somos una agencia genial!`,
+    description: `Creatividad y estrategia`,
     about:
-        "Somos una agencia dedicada a la publicidad digital en redes sociales, especialistas en Facebook, Twitter, Instagram, YouTube, Snapchat, teniendo impactos de más de 4 millones de personas al instante.",
+        "10 años de volvernos locos con ideas, estrategias y conceptos a través de redes sociales, desde Twitter y snapchat (RIP) hasta Youtube y Tik Tok..",
     author: `@_akzhy y el valerioMix`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
