@@ -5,7 +5,7 @@ const siteMetadata = {
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.png`,
-    ogImage: `/images/wall02.png`,
+    ogImage: `/images/wall.png`,
     twoColumnWall: true,
     cookiePolicy: true,
     introTag: `Social media`,
